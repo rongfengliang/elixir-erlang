@@ -10,11 +10,11 @@ userlogin/1
 login() ->
     {ok,'dalongdemo'}.
 
-login(name , password) ->
+login(Name , Password) ->
     {ok,'appdemo'}.
 
 userlogin()->
     #user{name='dalongdemo',age=44}.
 
-userlogin(user)->
-    user.
+userlogin(User)->
+    User.
